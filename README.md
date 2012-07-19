@@ -24,5 +24,9 @@ PanningViewController *panningViewController = [PanningViewController alloc] ini
 [panningViewController setTopViewController:bottomViewController];
 [panningViewController setTopViewController:leftViewController];
 
+//In AppDelegate
+//Set the window's view controller to the panning view controller
+//And that's it!
+[self.window setRootViewController:panningViewController];
 ```
 	
